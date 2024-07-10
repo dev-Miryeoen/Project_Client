@@ -98,7 +98,7 @@ const SearchMainContainer = ({ searchParams, setSearchParams, isFilterActivate, 
             });
 
         }
-    }, [searchParams, currentPage, bathroom, bed, bedroom, cate, edate, gPrice, guests, isFilterActivate, lPrice, maxUser, sdate, setSearchParams, val]);
+    }, [searchParams, currentPage, bathroom, bed, bedroom, cate, edate, gPrice, guests, isFilterActivate, lPrice, maxUser, sdate, setSearchParams, val, clickRoom]);
 
 
 
