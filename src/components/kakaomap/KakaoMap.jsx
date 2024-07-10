@@ -11,7 +11,7 @@ const KakaoMap = ({ props, index }) => { // props로 주소 받기
     useEffect(() => {
         // Kakao Maps API 스크립트 로드(index.html에 심는 것 대신)
         const script = document.createElement('script');
-        script.src = 'https://dapi.kakao.com/v2/maps/sdk.js?appkey=36c7797271c2d5cecad0688f5075fb95&autoload=false&libraries=services';
+        script.src = 'https://dapi.kakao.com/v2/maps/sdk.js?appkey=e46c9b327d900af6ce8a7e21f5d60335&autoload=false&libraries=services';
         script.async = true;
         document.head.appendChild(script);
 
